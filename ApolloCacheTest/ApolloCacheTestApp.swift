@@ -36,7 +36,7 @@ class TestViewModel: ObservableObject {
             cachePolicy: .fetchIgnoringCacheData,
             resultHandler: { result in
                 switch result {
-                case .success:
+                case let .success(successData):
                     self.store.withinReadWriteTransaction({ transaction in
                         do {
                             try transaction.updateObject(
@@ -44,7 +44,7 @@ class TestViewModel: ObservableObject {
                                 withKey: "testKey",
                                 variables: ApolloCacheGQL.GetHeroQuery().__variables
                             ) { fragment in
-                                fragment.children?.append(contentsOf: [.init(name: "Ben", age: nil)])
+                                fragment.children?.append(contentsOf: successData.data?.hero?.children ?? [])
                             }
 
                         } catch {
