@@ -1,0 +1,17 @@
+query GetHero {
+  hero {
+    __typename
+    age
+    name
+    ...ChildrenFragment
+  }
+}
+
+fragment ChildrenFragment on Hero @apollo_client_ios_localCacheMutation {
+    __typename
+    children {
+      __typename
+      name
+      age
+    }
+}

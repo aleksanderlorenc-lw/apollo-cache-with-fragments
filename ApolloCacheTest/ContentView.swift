@@ -1,10 +1,3 @@
-//
-//  ContentView.swift
-//  ApolloCacheTest
-//
-//  Created by Aleksander Lorenc on 07/07/2023.
-//
-
 import SwiftUI
 
 struct ContentView: View {

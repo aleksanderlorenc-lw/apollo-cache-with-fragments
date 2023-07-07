@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		789DA5772A57EDD6008D742D /* GetHero.graphql in Resources */ = {isa = PBXBuildFile; fileRef = 789DA5762A57EDD6008D742D /* GetHero.graphql */; };
+		789DA5902A57EE9C008D742D /* Apollo in Frameworks */ = {isa = PBXBuildFile; productRef = 789DA58F2A57EE9C008D742D /* Apollo */; };
+		789DA59E2A57F0C3008D742D /* ApolloCacheGQL.graphql.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789DA5912A57F0C3008D742D /* ApolloCacheGQL.graphql.swift */; };
+		789DA59F2A57F0C3008D742D /* ChildrenFragment.graphql.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789DA5932A57F0C3008D742D /* ChildrenFragment.graphql.swift */; };
+		789DA5A02A57F0C3008D742D /* GetHeroQuery.graphql.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789DA5962A57F0C3008D742D /* GetHeroQuery.graphql.swift */; };
+		789DA5A12A57F0C3008D742D /* Hero.graphql.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789DA5992A57F0C3008D742D /* Hero.graphql.swift */; };
+		789DA5A22A57F0C3008D742D /* Child.graphql.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789DA59A2A57F0C3008D742D /* Child.graphql.swift */; };
+		789DA5A32A57F0C3008D742D /* Query.graphql.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789DA59B2A57F0C3008D742D /* Query.graphql.swift */; };
+		789DA5A42A57F0C3008D742D /* SchemaConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789DA59C2A57F0C3008D742D /* SchemaConfiguration.swift */; };
+		789DA5A52A57F0C3008D742D /* SchemaMetadata.graphql.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789DA59D2A57F0C3008D742D /* SchemaMetadata.graphql.swift */; };
 		78D9BDF92A57E0A8007A55B0 /* ApolloCacheTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78D9BDF82A57E0A8007A55B0 /* ApolloCacheTestApp.swift */; };
 		78D9BDFB2A57E0A8007A55B0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78D9BDFA2A57E0A8007A55B0 /* ContentView.swift */; };
 		78D9BDFD2A57E0AE007A55B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78D9BDFC2A57E0AE007A55B0 /* Assets.xcassets */; };
@@ -34,6 +44,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		789DA5762A57EDD6008D742D /* GetHero.graphql */ = {isa = PBXFileReference; lastKnownFileType = text; path = GetHero.graphql; sourceTree = "<group>"; };
+		789DA5912A57F0C3008D742D /* ApolloCacheGQL.graphql.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApolloCacheGQL.graphql.swift; sourceTree = "<group>"; };
+		789DA5932A57F0C3008D742D /* ChildrenFragment.graphql.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChildrenFragment.graphql.swift; sourceTree = "<group>"; };
+		789DA5962A57F0C3008D742D /* GetHeroQuery.graphql.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetHeroQuery.graphql.swift; sourceTree = "<group>"; };
+		789DA5992A57F0C3008D742D /* Hero.graphql.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hero.graphql.swift; sourceTree = "<group>"; };
+		789DA59A2A57F0C3008D742D /* Child.graphql.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Child.graphql.swift; sourceTree = "<group>"; };
+		789DA59B2A57F0C3008D742D /* Query.graphql.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Query.graphql.swift; sourceTree = "<group>"; };
+		789DA59C2A57F0C3008D742D /* SchemaConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchemaConfiguration.swift; sourceTree = "<group>"; };
+		789DA59D2A57F0C3008D742D /* SchemaMetadata.graphql.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchemaMetadata.graphql.swift; sourceTree = "<group>"; };
 		78D9BDF52A57E0A8007A55B0 /* ApolloCacheTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ApolloCacheTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78D9BDF82A57E0A8007A55B0 /* ApolloCacheTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApolloCacheTestApp.swift; sourceTree = "<group>"; };
 		78D9BDFA2A57E0A8007A55B0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -51,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				789DA5902A57EE9C008D742D /* Apollo in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +91,61 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		789DA5782A57EE60008D742D /* ApolloCacheGQL */ = {
+			isa = PBXGroup;
+			children = (
+				789DA5912A57F0C3008D742D /* ApolloCacheGQL.graphql.swift */,
+				789DA5922A57F0C3008D742D /* LocalCacheMutations */,
+				789DA5942A57F0C3008D742D /* Operations */,
+				789DA5972A57F0C3008D742D /* Schema */,
+			);
+			path = ApolloCacheGQL;
+			sourceTree = "<group>";
+		};
+		789DA5922A57F0C3008D742D /* LocalCacheMutations */ = {
+			isa = PBXGroup;
+			children = (
+				789DA5932A57F0C3008D742D /* ChildrenFragment.graphql.swift */,
+			);
+			path = LocalCacheMutations;
+			sourceTree = "<group>";
+		};
+		789DA5942A57F0C3008D742D /* Operations */ = {
+			isa = PBXGroup;
+			children = (
+				789DA5952A57F0C3008D742D /* Queries */,
+			);
+			path = Operations;
+			sourceTree = "<group>";
+		};
+		789DA5952A57F0C3008D742D /* Queries */ = {
+			isa = PBXGroup;
+			children = (
+				789DA5962A57F0C3008D742D /* GetHeroQuery.graphql.swift */,
+			);
+			path = Queries;
+			sourceTree = "<group>";
+		};
+		789DA5972A57F0C3008D742D /* Schema */ = {
+			isa = PBXGroup;
+			children = (
+				789DA5982A57F0C3008D742D /* Objects */,
+				789DA59C2A57F0C3008D742D /* SchemaConfiguration.swift */,
+				789DA59D2A57F0C3008D742D /* SchemaMetadata.graphql.swift */,
+			);
+			path = Schema;
+			sourceTree = "<group>";
+		};
+		789DA5982A57F0C3008D742D /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				789DA5992A57F0C3008D742D /* Hero.graphql.swift */,
+				789DA59A2A57F0C3008D742D /* Child.graphql.swift */,
+				789DA59B2A57F0C3008D742D /* Query.graphql.swift */,
+			);
+			path = Objects;
+			sourceTree = "<group>";
+		};
 		78D9BDEC2A57E0A8007A55B0 = {
 			isa = PBXGroup;
 			children = (
@@ -78,6 +153,7 @@
 				78D9BE082A57E0AE007A55B0 /* ApolloCacheTestTests */,
 				78D9BE122A57E0AE007A55B0 /* ApolloCacheTestUITests */,
 				78D9BDF62A57E0A8007A55B0 /* Products */,
+				78D9BE652A57EB0F007A55B0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,6 +170,7 @@
 		78D9BDF72A57E0A8007A55B0 /* ApolloCacheTest */ = {
 			isa = PBXGroup;
 			children = (
+				78D9BE322A57E798007A55B0 /* schemas */,
 				78D9BDF82A57E0A8007A55B0 /* ApolloCacheTestApp.swift */,
 				78D9BDFA2A57E0A8007A55B0 /* ContentView.swift */,
 				78D9BDFC2A57E0AE007A55B0 /* Assets.xcassets */,
@@ -127,6 +204,22 @@
 			path = ApolloCacheTestUITests;
 			sourceTree = "<group>";
 		};
+		78D9BE322A57E798007A55B0 /* schemas */ = {
+			isa = PBXGroup;
+			children = (
+				789DA5782A57EE60008D742D /* ApolloCacheGQL */,
+				789DA5762A57EDD6008D742D /* GetHero.graphql */,
+			);
+			path = schemas;
+			sourceTree = "<group>";
+		};
+		78D9BE652A57EB0F007A55B0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +236,9 @@
 			dependencies = (
 			);
 			name = ApolloCacheTest;
+			packageProductDependencies = (
+				789DA58F2A57EE9C008D742D /* Apollo */,
+			);
 			productName = ApolloCacheTest;
 			productReference = 78D9BDF52A57E0A8007A55B0 /* ApolloCacheTest.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +311,9 @@
 				Base,
 			);
 			mainGroup = 78D9BDEC2A57E0A8007A55B0;
+			packageReferences = (
+				789DA58E2A57EE9C008D742D /* XCRemoteSwiftPackageReference "apollo-ios" */,
+			);
 			productRefGroup = 78D9BDF62A57E0A8007A55B0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -232,6 +331,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				78D9BE002A57E0AE007A55B0 /* Preview Assets.xcassets in Resources */,
+				789DA5772A57EDD6008D742D /* GetHero.graphql in Resources */,
 				78D9BDFD2A57E0AE007A55B0 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,7 +358,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				78D9BDFB2A57E0A8007A55B0 /* ContentView.swift in Sources */,
+				789DA5A32A57F0C3008D742D /* Query.graphql.swift in Sources */,
+				789DA59E2A57F0C3008D742D /* ApolloCacheGQL.graphql.swift in Sources */,
+				789DA5A02A57F0C3008D742D /* GetHeroQuery.graphql.swift in Sources */,
 				78D9BDF92A57E0A8007A55B0 /* ApolloCacheTestApp.swift in Sources */,
+				789DA5A12A57F0C3008D742D /* Hero.graphql.swift in Sources */,
+				789DA59F2A57F0C3008D742D /* ChildrenFragment.graphql.swift in Sources */,
+				789DA5A22A57F0C3008D742D /* Child.graphql.swift in Sources */,
+				789DA5A52A57F0C3008D742D /* SchemaMetadata.graphql.swift in Sources */,
+				789DA5A42A57F0C3008D742D /* SchemaConfiguration.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -583,6 +691,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		789DA58E2A57EE9C008D742D /* XCRemoteSwiftPackageReference "apollo-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apollographql/apollo-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		789DA58F2A57EE9C008D742D /* Apollo */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 789DA58E2A57EE9C008D742D /* XCRemoteSwiftPackageReference "apollo-ios" */;
+			productName = Apollo;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 78D9BDED2A57E0A8007A55B0 /* Project object */;
 }
